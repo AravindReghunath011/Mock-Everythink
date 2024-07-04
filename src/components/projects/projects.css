@@ -1,0 +1,38 @@
+.projects-container{
+    overflow: hidden;
+    width: 100%;
+    color: rgb(46, 49, 146);;
+    text-align: center;
+    background: transparent;
+    transition: background-color 0.4s, color 0.3s;
+    /* background-color: rgb(46, 49, 146); */
+    padding-top: 2rem;
+    h1{
+        font-size: 3rem;
+        font-family: serif; 
+        font-weight: 500;
+        font-style: italic;
+    }
+}
+
+.projects-list{
+    width: 100%;
+    /* border: 1px solid red; */
+    
+    img{
+        width: 65vw;
+        margin-top: 3rem;
+        z-index: 9;
+    }
+    
+    
+}
+
+
+.projects-list img:nth-child(odd) {
+    margin-left: 35vw; /* Adjust the value as needed */
+}
+
+.projects-list img:nth-child(even) {
+    margin-right: 40vw; /* Adjust the value as needed */
+}

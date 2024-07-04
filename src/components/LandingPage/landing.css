@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+
+    cursor: url("./Asset 84ethink_char.svg"), auto;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.container{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        text-align: center;
+        margin-top: -130px;
+        color: rgb(46, 49, 146);
+        font-family: sans-serif ;
+        width: 67%;
+        font-weight: 700;
+        font-size: 3.4rem;
+        line-height: 1.2;
+        letter-spacing: -1px;
+        span{
+            font-family: serif; 
+            font-weight: 500;
+            font-style: italic;
+        }
+        
+    }
+}
+
+.img1{
+    position: absolute;
+    width:40vw;
+    top:66%;
+    left: 6%;
+    z-index: -1;
+
+}
+.img2{
+    position: absolute;
+    width:20vw;
+    top:50%;
+    left: 79.8%;
+    z-index: -1;
+
+}
+.img3{
+    position: absolute;
+    width: 8vw;
+    top:10%;
+    left: 7%;
+    transform: scaleX(-1);
+
+}
+.img4{
+    position: absolute;
+    width: 8vw;
+    top:-15%;
+    z-index: -1;
+    left: 80%;
+    transform: scaleX(-1);
+
+}
+.img5{
+    position: absolute;
+    z-index: -1;
+    width: 4vw;
+    top:95%;
+    left: 50%;
+
+}

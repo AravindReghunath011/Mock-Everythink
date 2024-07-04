@@ -1,0 +1,12 @@
+.trail{
+    position: fixed;
+    left: 0;
+    top: 0;
+    path{
+      stroke: #2E3192;
+      stroke-width: 10px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+  }

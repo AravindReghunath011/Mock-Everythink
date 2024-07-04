@@ -1,0 +1,89 @@
+.works-container{
+    display: grid;
+    padding-top: 3rem;
+    margin-inline: auto;
+   
+}
+
+.works-main{
+    
+    text-align: center;
+    padding-top:10rem;
+    h1{
+        font-size: 3.3rem;
+        color: rgb(46, 49, 146);
+        /* margin-left: 3.7rem; */
+    }
+}
+
+.card1{
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+    text-align: start;
+    div{
+        overflow: hidden;
+        width: 90vw;
+        margin: auto;
+        height: 80vh;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    }
+    h1{
+        font-size: 2.5rem;
+        font-weight: 400;
+        font-family: sans-serif;
+        margin-top: 1rem;
+        color: black;
+    }
+    h3{
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: sans-serif;
+        color: dimgray;
+    }
+
+}
+
+.card2{
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    height:60vh;
+    gap: 2vw;
+    /* border: 1px solid green; */
+    margin-inline: auto;
+    div{
+        height:60vh;
+        /* border: 1px solid blue; */
+        width: 44vw;
+        text-align: start;
+        div{
+            height: 45vh;
+            overflow: hidden;
+            /* border: 1px solid red; */
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        h1{
+            font-size: 2.5rem;
+            font-weight: 400;
+            font-family: sans-serif;
+            margin-top: 1rem;
+            color: black;
+            
+        }
+        h3{
+            font-size: 1.2rem;
+            font-weight: 400;
+            font-family: sans-serif;
+            color: dimgray;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    z-index: 99;
+}
+.logo{
+    font-size: xx-large;
+    font-weight: 700;
+    color: rgb(46, 49, 146);
+    letter-spacing: -2px;
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul{
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        li{
+           
+            a{
+                text-decoration: none;
+                color: rgb(46, 49, 146);
+                font-weight: 600;
+                text-transform: uppercase;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+            
+        }
+    }
+}
