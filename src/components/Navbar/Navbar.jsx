@@ -10,7 +10,7 @@ const Navbar = () => {
           <ul>
             <li><Link to={'/qatar'}>Qatar</Link></li>
             <li><Link to={'/india'}>India</Link></li>
-            <li><Link to={'/china'}>China</Link></li>
+            <li><Link to={'/works'}>WOrks</Link></li>
           </ul>
            </div>
 
